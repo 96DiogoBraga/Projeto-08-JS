@@ -5,6 +5,7 @@ body{
     display: flex;   
     justify-content: center;
     align-items: center;
+    background-color: #42414d;
 }
 
 .formulario{
@@ -104,4 +105,33 @@ select{
     border: 3px solid #8f8f9d6e;
     border-radius: 10px;
     background-color: #e3e3ff88;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.filmesCadastrados button{
+    padding: 5px 25px;
+    margin-left: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #5d5d68 ;
+    border: 3px solid #8f8f9d;
+    border-radius: 10px;
+    background-color: #e3e3ff;
+}
+
+.filmesCadastrados button:hover{
+    background-color:#5d5d68 ;
+    border-color: #b7b7d3;
+    color: #fff;
+}
+
+.filmesCadastrados button:active{
+    background-color:#5d5d68 ;
+    border: 2px solid;
+    border-color: #b7b7d3;
+    color: #fff;
 }
