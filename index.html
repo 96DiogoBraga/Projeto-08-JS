@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Cadastro de Filmes</title>
 </head>
 <body>
@@ -66,10 +66,21 @@
         </div>
 
         <div class="campo">
-            <button id="cadastrarButton" disabled>Cadastrar</button>
+            <div class="buttons">
+                <div class="cadastrarButton">
+                    <button id="cadastrarButton" disabled>Cadastrar</button>
+                </div>
+                <div class="filmesCadastrados">
+                    <a href="/cadastrados.html">
+                        <button id="cadastradosButton">Filmes cadastrados</button>
+                    </a>
+                </div>
+            </div>
         </div>
+
     </div>
 
-    <script src="./javascript/index.js"></script>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/cadastrados.js"></script>
 </body>
 </html>
